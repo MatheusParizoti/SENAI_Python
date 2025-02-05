@@ -1,0 +1,109 @@
+Primeira aula:
+
+List Comprehension basicamente uma logica com for e append encurtada
+
+A Syntax:
+newlist = [expression for item in iterable if condition == True]
+
+exemplos:
+ 
+# Exemplo 1: Usando list comprehension para filtrar elementos de uma lista
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+# Estrutura do list comprehension:
+# newlist = [expressão for variável in lista if condição]
+# - Expressão: x → O valor que será adicionado à nova lista
+# - Variável: x → Cada item da lista original será percorrido usando essa variável
+# - Lista: fruits → A lista original de onde os elementos serão retirados
+# - Condição: if "a" in x → Apenas os itens que contêm a letra "a" serão incluídos
+
+newlist = [x for x in fruits if "a" in x]  # Cria uma nova lista apenas com frutas que possuem a letra "a"
+
+print(newlist)  # Saída esperada: ['apple', 'banana', 'mango']
+
+
+# Exemplo 2: Fazendo a mesma filtragem, mas usando um loop for tradicional
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []  # Criamos uma lista vazia para armazenar os resultados
+
+# Estrutura do loop for:
+# - O loop percorre cada item da lista "fruits"
+# - A condição if verifica se a letra "a" está no nome da fruta
+# - Se a condição for verdadeira, o item é adicionado à lista newlist
+
+for x in fruits:  # Para cada fruta na lista original
+  if "a" in x:    # Se a fruta contiver a letra "a"
+    newlist.append(x)  # Adicionamos essa fruta à nova lista
+
+print(newlist)  # Saída esperada: ['apple', 'banana', 'mango']
+
+
+# Exemplo 3: Somando elementos de duas listas de mesmo tamanho usando list comprehension
+
+# Duas listas de números
+lista1 = [10, 20, 30, 40, 50]
+lista2 = [5, 15, 25, 35, 45]
+
+# Estrutura do list comprehension:
+# - Expressão: lista1[i] + lista2[i] → Soma os elementos correspondentes das duas listas
+# - Loop: for i in range(len(lista1)) → Percorre os índices da lista usando range() e len()
+# - range(len(lista1)) → Garante que o loop percorra até o último índice da lista
+
+soma_listas = [lista1[i] + lista2[i] for i in range(len(lista1))]
+
+print(soma_listas)  # Saída esperada: [15, 35, 55, 75, 95]
+
+# Exemplo 3: Somando elementos de duas listas de mesmo tamanho usando list comprehension
+
+# Duas listas de números
+lista1 = [10, 20, 30, 40, 50]
+lista2 = [5, 15, 25, 35, 45]
+
+# Estrutura do list comprehension:
+# - Expressão: lista1[i] + lista2[i] → Soma os elementos correspondentes das duas listas
+# - Loop: for i in range(len(lista1)) → Percorre os índices da lista usando range() e len()
+# - range(len(lista1)) → Garante que o loop percorra até o último índice da lista
+
+soma_listas = [lista1[i] + lista2[i] for i in range(len(lista1))]
+
+print(soma_listas)  # Saída esperada: [15, 35, 55, 75, 95]
+
+# Exemplo 4: Separando números pares e ímpares e contando quantos existem usando list comprehension
+
+# Lista contendo números pares e ímpares misturados
+numeros = [10, 15, 22, 33, 42, 55, 60, 71, 84, 97]
+
+# Criamos listas separadas usando list comprehension:
+pares = [x for x in numeros if x % 2 == 0]  # Filtra apenas os números pares (divisíveis por 2)
+impares = [x for x in numeros if x % 2 != 0]  # Filtra apenas os números ímpares (não divisíveis por 2)
+
+# Contamos a quantidade de pares e ímpares diretamente dentro do print usando list comprehension
+print(f"Números pares: {pares}")
+print(f"Números ímpares: {impares}")
+print(f"Quantidade de números pares: {len([x for x in numeros if x % 2 == 0])}")
+print(f"Quantidade de números ímpares: {len([x for x in numeros if x % 2 != 0])}")
+
+# Exemplo 5: Encontrando o maior e o menor número da lista usando um loop for
+
+# Lista de números misturados
+numeros = [10, 15, 22, 33, 42, 55, 60, 71, 84, 97]
+
+# Inicializamos as variáveis com o primeiro elemento da lista
+maior_numero = numeros[0]
+menor_numero = numeros[0]
+
+# Percorremos a lista para encontrar o maior e o menor número
+for num in numeros:
+    if num > maior_numero:  # Se o número atual for maior que o maior encontrado até agora
+        maior_numero = num
+    if num < menor_numero:  # Se o número atual for menor que o menor encontrado até agora
+        menor_numero = num
+
+# Exibindo os resultados
+print(f"Maior número da lista: {maior_numero}")
+print(f"Menor número da lista: {menor_numero}")
+
+
+
