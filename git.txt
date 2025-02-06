@@ -1,3 +1,5 @@
+ESTÁ É UMA AULA DO DIA 05/02/2025
+
 Git: maquila(localmente)
 
 É um sistema de controle de versão distribuído amplamente utilizado para gerenciar o histórico de mudanças em arquivos, especialmente em projetos de desenvolvimento de software. Ele permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo sem sobrescrever o trabalho umas das outras, proporcionando um histórico completo de alterações.
