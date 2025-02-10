@@ -1,0 +1,84 @@
+Codigos do pandas
+
+exibe as 5 primeiras
+head()
+
+exibe as 5 ultimas
+tail()
+
+exibir coluna especificas
+df[['Nome', 'coluna']]
+
+df['nome']
+(fique atento que vai passar os dados como str)
+
+
+comparação coolunas utilizando aitimedica
+df['nome'] > 30
+(vai mostrar serie boolean)
+
+df[df['nome'] > 30]
+(filtro)
+
+combinar 
+df[variavel & variavel]
+
+mostrar os tipos e quantidades(mostra quantos nulls, existem)
+df.info()
+
+mesma coisa que o info porem melhor visualemente
+df.describe()
+
+pegar a media
+df["nome"].mean()
+
+
+LIMPEZA DE DADOS
+vai remover todos os valores NaN dentro do meu arquivo
+df.dropna()
+
+df.dropna(subdet='Idade')
+
+
+preencher os valores NaN
+df['Idade'] = df['Idade'].fillna()
+
+
+trocando tipo de valores ex: float para Int
+df['Idade'] = df['Idade'].astype(int)
+
+
+COMTAGEM DE OCORRENCIA
+df['Ativo'].value_counts()
+
+Groupby:
+Media
+df.groupby('Nome coluna')['coluna valores'].mean()
+
+Soma
+df.groupby('Nome coluna')['coluna valores'].sum()
+
+Maximo
+df.groupby('Nome coluna')['coluna valores'].max()
+
+ORDENANDO DADOS
+crescente
+df.sort_values(by="coluna vaores", ascending=True)
+
+decrescente
+df.sort_values(by="coluna vaores", ascending=False)
+
+Combinando Dados
+df_final = pd.menge(df tabela 1,df tabela2)
+
+especificando
+df_final = pd.menge(df tabela 1,df tabela2, left_on='Id', right_on='nome')
+
+Empilhando tabelas
+df_juncao = pd.concat([df 1, df 2], ignore_index=True)
+
+(ignore_index=True é para alinhar a ordem das tabelas quando forem empilhadas)
+
+
+PARA SALVAR A TABELA COM A LIMPREZA DE DADOS
+df_juncao.to_excel('tabela_limpada.xlsx')
