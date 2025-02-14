@@ -1,0 +1,27 @@
+MER e DER
+
+MER significa Modelo Entidade-Relacionamento. Ele é uma forma de representar visualmente a estrutura de um banco de dados, mostrando as entidades (tabelas), os atributos e os relacionamentos entre elas.
+
+Símbolos no MER:
+Retângulos 📦 → Representam entidades, que são os objetos principais do banco de dados.
+
+Exemplo: "Usuário", "Produto", "Pedido".
+Losangos 🔷 → Representam os relacionamentos entre entidades.
+
+Exemplo: Um losango entre "Usuário" e "Pedido" poderia representar "Realiza".
+Círculos ⚪ → Representam os atributos, que são as características das entidades.
+
+Exemplo: A entidade "Usuário" pode ter os atributos "Nome", "Email" e "Senha".
+Esses elementos juntos formam o diagrama do Modelo Entidade-Relacionamento (MER), facilitando a visualização da estrutura do banco de dados antes de implementá-lo. 🚀
+
+O DER (Diagrama Entidade-Relacionamento) é a representação gráfica do Modelo Entidade-Relacionamento (MER). Ele serve para visualizar a estrutura do banco de dados, detalhando entidades, atributos e relacionamentos de forma mais organizada.
+
+Diferença entre MER e DER
+MER → Modelo conceitual, descreve o banco de dados de forma abstrata.
+DER → Representação gráfica do MER, usada para implementação.
+Elementos do DER
+Entidades (Retângulos) 📦 → Representam tabelas do banco de dados.
+Relacionamentos (Losangos ou Conectores) 🔷 → Mostram como as entidades se conectam.
+Atributos (Elipses ou Círculos) ⚪ → São características das entidades.
+Cardinalidade (1:1, 1:N, N:M) 🔢 → Define quantas ocorrências de uma entidade podem se relacionar com outra.
+O DER ajuda os desenvolvedores e DBAs a entenderem melhor a estrutura do banco antes da implementação! 🚀
