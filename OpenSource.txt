@@ -1,0 +1,12 @@
+Open source: leva a ideia que todos tem que ter acesso e distribuir o conhecimento(sem fins lucrativos)
+
+Close source: quer ter um ganho financeiro(não é inimigo, uma empresa vendendo serviso)
+
+Kernel = núcleo 
+
+Relações : aplications e Kernel, Kernel e CPU, Kernel e Memory, Kernel e Devices
+
+Criando um arquivo .bat
+
+echo 'teste'
+pause
