@@ -1,0 +1,71 @@
+## Estrutura de Repetição while
+
+numero = 1
+while numero < 6:
+    print(numero)
+    numero = numero + 1 
+    
+numero = 5
+while numero > 0:
+    print(numero)
+    numero = numero -1 
+
+## Diferença:
+
+## o for vai parar 
+## o while não vai parar até uma condição
+
+# para somar todos os numeros
+soma = 0
+numero = 1
+
+while numero < 6:
+    
+    soma = soma + numero
+    numero = numero + 1
+    
+print(soma)
+
+numero = 12
+
+while numero < 1 or numero > 10:
+    numero = int(input("Digite um número: "))
+
+Matrizes
+
+import numpy as np
+
+# .array mostra que é uma matriz
+matriz = np.array([[2,3,1],[4,5,6]])
+print(matriz)
+
+# .shape mostra quantas linhas e quantas colunas
+matriz.shape
+
+# pegando a linha da minha matriz
+matriz[1]
+
+# pegando o elemento da coluna especifica
+matriz[0][2]
+
+dois fors
+
+print("Agora as linhas: ")
+print("")
+
+for linha in range(matriz.shape[0]):
+    for coluna in range(matriz.shape[1]):
+        print(matriz[linha][coluna])
+        print("")
+
+print("Agora as Colunas: ")
+print("")
+
+
+for c in range(matriz.shape[1]):
+    for l in range(matriz.shape[0]):
+        print(matriz[l][c])
+        print("")
+
+
+exercício:

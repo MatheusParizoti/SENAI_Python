@@ -1,0 +1,125 @@
+## Criação das listas
+## posição dos elementos nas listas:
+#       [0,   1, 2, 3]
+notas = [10, 9 , 8, 10]
+print(notas)
+
+
+print(notas[0])
+notas[2] = 9 # atribuição de um novo valor para a lista na terceira posição
+print(notas)
+
+# buffer é um local de armazenamento temporario , faz a conta e depois tira o valor
+notas = ["pele", 10 , "Edson", 9 , "Arantes", 10, "Nascimento", 10]
+notas
+
+linha1 = ["a","b","c"]
+linha2 = ["d","e","f"]
+linha3 = ["g","h","i"]
+
+matriz = [linha1,linha2,linha3]
+print(matriz[1][2])
+
+print(len(linha1)) #Utilizando a função len() mostrando o tamanho da lista
+# count para contar quantos 'a' tem dentro da minha lista
+print(linha1.count('a'))
+
+notas_alunos = [10,10,5,3]
+print(notas_alunos.count(10))
+
+
+# Concatenação é soma de variavel com str
+# interpolação é com f
+
+
+# Função para desenhar o tabuleiro
+def desenha_tabuleiro(tabuleiro):
+    print("-------------")
+    for i in range(3):
+        print("|", tabuleiro[i*3], "|", tabuleiro[i*3+1], "|", tabuleiro[i*3+2], "|")
+        print("-------------")
+
+# Função para verificar se alguém ganhou
+def verifica_ganhador(tabuleiro):
+    # Verificando linhas, colunas e diagonais
+    for i in range(3):
+        # Verificando linhas
+        if tabuleiro[i*3] == tabuleiro[i*3+1] == tabuleiro[i*3+2] != " ":
+            return tabuleiro[i*3]
+        # Verificando colunas
+        if tabuleiro[i] == tabuleiro[i+3] == tabuleiro[i+6] != " ":
+            return tabuleiro[i]
+
+    # Verificando diagonais
+    if tabuleiro[0] == tabuleiro[4] == tabuleiro[8] != " ":
+        return tabuleiro[0]
+    if tabuleiro[2] == tabuleiro[4] == tabuleiro[6] != " ":
+        return tabuleiro[2]
+
+    return None
+
+# Função principal para jogar
+def jogo_da_velha():
+    tabuleiro = [" " for _ in range(9)]  # Tabuleiro vazio
+    jogador_atual = "X"
+    rodada = 0
+
+    while rodada < 9:
+        desenha_tabuleiro(tabuleiro)
+        print(f"Jogador {jogador_atual}, é a sua vez!")
+
+        # Entrada da posição do jogador (1-9)
+        try:
+            escolha = int(input("Escolha um número de 1 a 9 para sua jogada: "))
+            if escolha < 1 or escolha > 9:
+                print("Escolha um número de 1 a 9!")
+                continue
+
+            # Ajusta para índice de lista (de 0 a 8)
+            escolha -= 1
+
+            if tabuleiro[escolha] != " ":
+                print("Essa posição já está ocupada! Tente novamente.")
+                continue
+        except (ValueError, IndexError):
+            print("Entrada inválida! Tente novamente.")
+            continue
+
+        # Atualiza o tabuleiro
+        tabuleiro[escolha] = jogador_atual
+
+        # Verifica se alguém ganhou
+        vencedor = verifica_ganhador(tabuleiro)
+        if vencedor:
+            desenha_tabuleiro(tabuleiro)
+            print(f"Jogador {vencedor} ganhou!")
+            break
+
+        # Troca de jogador
+        jogador_atual = "O" if jogador_atual == "X" else "X"
+        rodada += 1
+    else:
+        desenha_tabuleiro(tabuleiro)
+        print("Empate!")
+
+# Iniciar o jogo
+jogo_da_velha()
+
+
+# Tupla
+tupla = (11,22,33)
+
+## dicionario
+
+aluno_senai = {
+    "nome":"Aurelio",
+    "matricula":"SN1010",
+    "notas":[10,10,10,10],
+    "turno":"norturno",
+}
+print(type(aluno_senai))
+print(aluno_senai)
+print(f"{aluno_senai['nome']} \n {aluno_senai['matricula']} \n {aluno_senai['notas']} \n {aluno_senai['turno']} \n")
+aluno_senai['nome'] = 'Yolanda'
+aluno_senai['faltas'] = 10
+print(aluno_senai)

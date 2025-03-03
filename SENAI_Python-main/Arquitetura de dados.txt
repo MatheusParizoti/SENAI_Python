@@ -1,0 +1,32 @@
+Arquitetura de Dados:
+
+Entidade: (Quadrado)
+são elementos que existem sozinhos e que as outras propriedades são dependentes delas
+
+entidade forte: Uma entidade que existe por sozinha
+entidade fraca: uma entidade que existe para a entidade forte
+
+Relacionamento:(Losango)
+São meio que verbos e ações para ligar as entidades com os outros elementos
+
+Cardinalidade: (1,0,N)
+elementos que ficam no começo e no final das relações e significam basicamente a quantidade mínima e máxima
+das relações representada por (1,0,N)
+
+Diagrama da MCM bobinas:
+* Cadastra, consultar, atualizar, excluir
+
+* um cliente pode realizar uma ou mais bobinas
+* Cada venda deve ser realizada
+
+* todo cliente deve ter um score de crédito
+
+Exercício:
+Entidades: usuários, livros, funcionários, exemplar(fraco)
+cardinalidade: 1,N(3) / 1,1(não pode ter 0 em numa  que envolva livros)
+Relação: Emprestar
+atributo: data de empréstimo e data de devolução ,título, autor e ISBN(livro)
+
+
+
+

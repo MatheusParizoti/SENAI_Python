@@ -1,0 +1,82 @@
+CLI / GUI
+CLI: voltada para linha de comando Exemplo cmd ou power shell
+
+GUI: voltada para interface grafica para facilitar a vida
+
+CLI é melhor para programadores porque são utilizados por conta de serem muito leves porém exige conhecimento dos comando
+
+GUI é melhor para a grande maioria das pessoas comuns porque visualmente é mais acessivel e de fácil compreenção
+
+Comando dentro do prompt do Git
+
+Criar pasta:
+mkdir + nome da pasta
+
+Ver todas as pastas:
+dir
+
+Deletar pasta:
+rmdir + nome da pasta
+
+Entrar na pasta:
+cd + nome da pasta
+
+Voltar na pasta:
+cd ..
+
+Listar os elementos da pasta:
+ls
+
+Adicionar um arquivo .txt com algo escrito:
+echo ola >> teste.txt 
+
+Passo a passo para entrar no repositorio e depois 
+enviar uma atualização com nota da mudança:
+
+Para entrar no repositorio Main(Master)
+git init
+
+Para mudar o nome do Master para Main:
+ git branch -m + Main ou nome que voce quiser
+
+Adicionar seu email para identificar o email do usuario que está alterando o codigo ou projeto:
+git config --global user.email "seu_email@gmail.com"
+(--global para que todas alterações do computador seja daquele email)
+(--local para que as alterações se apenas do computador aquela vez em especifico)
+
+Adicionar seu nome para identificar o nome do usuario que está alterando o codigo ou projeto:
+git config --global user.name "seu_nome"
+
+Para adicionar a pasta dentro do repositorio:
+git add . (todas as pastas e elementos)
+git add + nome da pasta (somente para elementos únicos)
+
+Para adicionar um comentário da mudança que voce está alterando:
+git commit -m "a mensagem aqui"
+
+Agora para acessar a linguagem de marcação do git:
+
+vim / nano
+
+(os dois são utilizados para visualização e alteração dos arquivos ex: .txt)
+
+Codigo de execução dos dois(para entrar):
+git vim + seu arquivo / vim + seu arquivo
+git nano + seu arquivo / nano + seu arquivo
+
+Para verificar o status do seu repositorio:
+git status(so pode ser usado dentro de um repositorio)
+
+Para visualizar todos os commits e quem executou ele e o horario:
+git log
+
+Para fazer uma comparação do primeiro e do ultimo commit que algum usuario fez:
+git diff
+
+
+README:
+
+O readme basiacamente é um lugar aonde voce vai passar o manual de como funciona a sua aplicação para que ele consiga executar sozinho 
+
+o readme tambem aceita algumas tags para que a sua explicação seja mais clara e intuitiva
+

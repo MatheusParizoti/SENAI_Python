@@ -1,0 +1,20 @@
+ESTÁ É UMA AULA DO DIA 05/02/2025
+
+Git: maquila(localmente)
+
+É um sistema de controle de versão distribuído amplamente utilizado para gerenciar o histórico de mudanças em arquivos, especialmente em projetos de desenvolvimento de software. Ele permite que várias pessoas trabalhem no mesmo projeto ao mesmo tempo sem sobrescrever o trabalho umas das outras, proporcionando um histórico completo de alterações.
+
+GitHub: nuvem, comunidade
+
+Em resumo, GitLab é uma plataforma robusta, voltada para equipes que buscam uma solução integrada para todo o ciclo de vida do desenvolvimento de software, com foco em automação, colaboração e segurança, seja na nuvem ou em uma infraestrutura próp
+
+Gitlab: 
+Em resumo, GitLab é uma plataforma robusta, voltada para equipes que buscam uma solução integrada para todo o ciclo de vida do desenvolvimento de software, com foco em automação, colaboração e segurança, seja na nuvem ou em uma infraestrutura próp
+
+diferença:
+A diferença entre GitHub e GitLab se baseia principalmente em características de uso, recursos e a forma como são gerenciados. Aqui estão algumas das principais diferenças:
+
+Propriedade e Hospedagem:
+
+GitHub: É uma plataforma de hospedagem de código-fonte baseada no Git, adquirida pela Microsoft em 2018. O GitHub oferece hospedagem em nuvem, mas também oferece a opção de hospedar repositórios privados.
+GitLab: É uma plataforma de DevOps que pode ser auto-hospedada ou utilizada na nuvem através do GitLab.com. Ele tem uma versão de código aberto (auto-hospedada) e uma versão paga (na nuvem).
