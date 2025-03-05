@@ -89,7 +89,13 @@ df = df.merge(tipologia_por_desastre[['descricao_tipologia', 'contagem']], on='d
 # Filtrar apenas os estados da região Sudeste (SP, RJ, MG, ES)
 gdf_sudeste = gdf[gdf['SIGLA_UF'].isin(['SP', 'RJ', 'MG', 'ES'])]
 
-# Plotando o mapa com os estados da região Sudeste
-gdf_sudeste.plot(figsize=(8, 5), color='lightblue', edgecolor='black')
-plt.title('Estados da Região Sudeste do Brasil')
+# Juntar os dados de "Danos à Indústria" ou "contagem" com o GeoDataFrame dos estados da região Sudeste
+# Exemplo: suponha que você tem a coluna 'PEPR_Indústria (R$)' no seu DataFrame e quer usar ela
+gdf_sudeste = gdf_sudeste.merge(df[['Sigla_UF', 'PEPR_Indústria (R$)']], left_on='SIGLA_UF', right_on='Sigla_UF', how='left')
+
+# Plotando o mapa com a coluna 'PEPR_Indústria (R$)' colorida
+plt.figure(figsize=(10, 6))
+gdf_sudeste.plot(column='PEPR_Indústria (R$)', cmap='viridis', legend=True,
+                 legend_kwds={'label': "Danos à Indústria (R$)", 'orientation': "horizontal"})
+plt.title('Danos à Indústria na Região Sudeste do Brasil')
 plt.show()
