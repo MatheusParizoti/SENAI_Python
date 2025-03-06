@@ -1,0 +1,77 @@
+Metodologias Ágeis:
+
+Watterfall:
+
+Analise -> Design -> Implementação -> Testando -> Apresentação
+
+Desenvolvimento de sw:
+
+1. Flexibilidade para mudanças de
+requisitos
+
+2. Feedback contínuo do cliente
+
+3. Redução de riscos e custos
+
+4. Maior envolvimento da equipe e
+empoderamento
+
+5. Entrega Mais rápida de valor ao
+cliente
+
+Dica: (No mundo do home office um ágil não pode virar um micro gerenciamento)
+
+SCRUM :
+um Framework que puxa a metodologia do ágil
+
+Dica: (metodologia ágil não é para atrapalhar, se atrapalhar está fazendo errado)
+
+
+Cerimonias do SCRUM:
+
+1. Sprint Planning
+2. Daily Scrum
+3. Sprint Review
+4. Sprint Retrospective
+
+Pilares do CRUM:
+
+1. Transparência
+2. Inspeção
+3. Adaptação
+
+
+Papéis do SCRUM:
+
+PO: quem vai dar as noticias ruins (conversa com as pessoas)
+SM:(SCRUM Master) gestor do time (Saber nos detalhes o que está rolando)
+DEV: qualquer perfil que não seja PO ou SM
+
+SPRINT PLANNING:
+
+Define o que cada membro vai fazer até a data
+
+DAILY SCRUM:
+
+Reunião diária todos os dias 
+
+SPRINT REVIEW:
+
+Uma revisão realizada no final de cada Sprint (tempo de 2 semanas)
+
+SPRINT RETROSPECTIVE:
+
+(Rola a cada 2 sprint review)
+
+QUADRO KANBAN:
+
+olhar um quadro de forma geral para ter uma visualização do projeto
+
+Dica: (atualizar todo dia o KABAN (cada função mexendo no seu próprio lugar))
+
+STORY POINTS:
+
+Relacionada ao esforço (não confunda com o tempo e sim com o esforço) (quanto mais tempo você pratica, menos pontos você ganha)
+
+Aplicada no SPRINT PLANNING
+
