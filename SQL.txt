@@ -1,0 +1,41 @@
+MySQL:
+
+ * Banco de dados relacionais
+
+DBMS ( DATABASE MANEGEMENT SYSTEM):
+locais aonde eu vou manusear meus dados
+
+chave composta:
+quando um atributo depende de mais atributos para ser válido
+
+date : (ano/mês/dia)
+time : (hora/minuto/segundo)
+
+**Resumo prático:**
+
+*Use `DATE` para registrar apenas datas.
+*Use `TIME` para horários isolados.
+*Use `DATETIME` para eventos exatos no tempo.
+*Use `TIMESTAMP` para logs e registros automáticos.
+*Use `YEAR` quando apenas o ano for necessário.
+
+**Exemplo prático:**
+
+- `CHAR(2)`: Para códigos de estado como **"SP", "RJ", "MG" (sempre 2 caracteres).
+- `VARCHAR(100)`: Para nomes de clientes como **"Ana Silva" , "João Pedro de Souza"** (comprimentos variáveis).
+
+VARCHAR vs TEXT :
+para buscas mais rápidas (Varchar)
+para buscas com textos grandes e maiores (Text)
+
+integridade dos dados:
+
+CHECK: A restrição CHECK consegue colocar um limite mínimo e máximo de idade
+
+NOTNULL: Que garante que determinada coluna não aceite nenhum registro nulo, ou seja, não fique sem ser preenchida. 
+
+UNIQUE: Temos outras restrições de integridade, como a UNIQUE, que torna único cada registro de uma certa coluna, exceto a coluna da chave primária, evitando duplicidades.
+
+enum
+
+
