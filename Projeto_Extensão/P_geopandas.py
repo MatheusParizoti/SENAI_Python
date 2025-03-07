@@ -69,14 +69,6 @@ df = pd.read_excel("df_reduzido.xlsx")
 def definir_regiao(sigla):
     if sigla in ['SP', 'RJ', 'MG', 'ES']:
         return 'Sudeste'
-    elif sigla in ['PR', 'SC', 'RS']:
-        return 'Sul'
-    elif sigla in ['AC', 'AP', 'AM', 'PA', 'RO', 'RR', 'TO', 'MA']:
-        return 'Norte'
-    elif sigla in ['BA', 'CE', 'SE', 'AL', 'PE', 'PB', 'RN', 'PI', 'MA', 'GO']:
-        return 'Nordeste'
-    elif sigla in ['MT', 'MS', 'DF']:
-        return 'Centro-Oeste'
 
 df['Regiao'] = df['Sigla_UF'].apply(definir_regiao)
 

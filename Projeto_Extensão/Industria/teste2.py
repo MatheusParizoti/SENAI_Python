@@ -33,35 +33,37 @@ for sigla, quantidade in contagem_positivos_por_sigla.items():
     print(f"Sigla {sigla}: {quantidade}")
 
 
-# Filtrar os dados para considerar apenas valores positivos de 'PEPR_Indústria (R$)'
-df_positivos = df_filtrado[df_filtrado['PEPR_Indústria (R$)'] > 0]
 
-# Agrupar por 'Sigla_UF' e 'descricao_tipologia' e contar as ocorrências, mas apenas para os valores positivos
-contagem_tipologia_por_estado = df_positivos.groupby(['Sigla_UF', 'descricao_tipologia']).size().reset_index(name='Quantidade')
+# # Calcular o menor e o maior valor positivo por sigla, e contar quantas vezes esses valores aparecem
+# resultados = []
 
-# Exibir os resultados
-print("\nContagem de Tipologias Positivas por Estado:")
-for sigla, grupo in contagem_tipologia_por_estado.groupby('Sigla_UF'):
-    print(f"\nSigla {sigla}:")
-    for _, row in grupo.iterrows():
-        print(f"  Tipologia: {row['descricao_tipologia']} - Quantidade: {row['Quantidade']}")
+# for sigla in siglas_interesse:
+#     # Filtrar os valores para cada sigla
+#     df_sigla = df_maiores_que_zero[df_maiores_que_zero['Sigla_UF'] == sigla]
+    
+#     if not df_sigla.empty:
+#         # Obter o menor e maior valor
+#         menor_valor = df_sigla['PEPR_Indústria (R$)'].min()
+#         maior_valor = df_sigla['PEPR_Indústria (R$)'].max()
+        
+#         # Contar quantas vezes o menor e maior valor aparecem
+#         count_menor = df_sigla[df_sigla['PEPR_Indústria (R$)'] == menor_valor].shape[0]
+#         count_maior = df_sigla[df_sigla['PEPR_Indústria (R$)'] == maior_valor].shape[0]
+        
+#         # Adicionar o resultado para essa sigla
+#         resultados.append({
+#             'Sigla': sigla,
+#             'Menor Valor': menor_valor,
+#             'Contagem Menor': count_menor,
+#             'Maior Valor': maior_valor,
+#             'Contagem Maior': count_maior
+#         })
 
-# Filtrar os dados para considerar apenas valores positivos de 'PEPR_Indústria (R$)'
-df_positivos = df_filtrado[df_filtrado['PEPR_Indústria (R$)'] > 0]
+# # Criar um DataFrame com os resultados
+# df_resultados = pd.DataFrame(resultados)
 
-# Agrupar por 'Sigla_UF' e 'descricao_tipologia' e contar as ocorrências, mas apenas para os valores positivos
-contagem_tipologia_por_estado = df_positivos.groupby(['Sigla_UF', 'descricao_tipologia']).size().reset_index(name='Quantidade')
+# # Ordenar os resultados pela sigla em ordem crescente
+# df_resultados = df_resultados.sort_values(by='Sigla')
 
-# Calcular o total de valores positivos por estado
-total_por_estado = df_positivos.groupby('Sigla_UF').size()
-
-# Calcular a porcentagem de cada tipologia dentro do estado
-contagem_tipologia_por_estado['Porcentagem'] = contagem_tipologia_por_estado.apply(
-    lambda row: (row['Quantidade'] / total_por_estado[row['Sigla_UF']]) * 100, axis=1)
-
-# Exibir os resultados
-print("\nContagem de Tipologias Positivas por Estado (em porcentagem):")
-for sigla, grupo in contagem_tipologia_por_estado.groupby('Sigla_UF'):
-    print(f"\nSigla {sigla}:")
-    for _, row in grupo.iterrows():
-        print(f"  Tipologia: {row['descricao_tipologia']} - Porcentagem: {row['Porcentagem']:.2f}%")
+# # Exibir os resultados
+# print(df_resultados)
