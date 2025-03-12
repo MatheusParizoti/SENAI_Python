@@ -1,0 +1,59 @@
+Estrutura de Dados:
+
+Big O: para saber a complexidade do meu algoritmo
+
+Big O é uma forma de medir o desempenho de um algoritmo conforme a entrada aumenta. Ele ajuda a entender o tempo de execução e o uso de memória de um código, permitindo comparar diferentes abordagens.
+
+três problemas clássicos de algoritmo:
+
+* Como representar estes problemas em computadores?
+* Como construir os algoritmos necessários ?
+* Que estrutura de dados utilizar ?
+
+%timeit 
+
+845 ns ± 139 ns per loop (mean ± std. dev. of 7 runs, 1,000,000 loops each)
+ns (essa soma demorou 845 nanosegundos)
+
+(toda função do python é mais rápido do que criar na mão)
+
+ordem de complexibilidade:
+O(1) menor
+O(n) (o "n" vai ser constante (numero não determinado))
+O(n^2) maior
+
+
+
+Vetores: tratar como uma lista em python
+
+Vetor não ordenado: ele não tem uma ordem haha
+(toda vez que eu quero fazer uma inserção ele vai automaticamente para a ultima posição)
+
+Pesquisa linear: quando eu tenho que percorrer uma sequência (Percorrer item por item)
+
+Exclusão (tempo de processamento) (algumas etapas) (probabilidade de N sobre 2 elementos)
+
+Duplicatas : dados que estão duplicados, achar os dois para as duas duplicadas e percorrer bastante (somente no não ordenado)
+
+Vetores Ordenados: vetores que seguem uma ordem (agiliza meu tempo de pesquisa)
+
+Inserção: aqui vai ter que respeitar a ordem (um pouco mais custoso do que o não ordenado)
+
+Exclusão (igual a não ordenada) (custosa para os dois)
+
+
+
+Pesquisa Binária: (Somente Vetores Ordenados)
+limitando meu espaço de busca (diminui meu espaço de busca)
+
+Pesquisa Binária vs Pesquisa linear : Binária sempre menos custosa
+
+Discussões: ver qual é mais útil e o que tem que levar em consideração
+
+Custler : dividir meu algoritmo em vários computadores
+
+
+
+
+
+
