@@ -1,0 +1,40 @@
+Computação em nuvem:
+é entrega sob demanda de poder computacional (armazenamento)
+
+
+modelos de nuvem:
+
+IaaS, PaaS, SaaS
+
+SaaS:
+todo software vende um serviço
+
+Nuvem publica:
+dentro do servidor , existem várias empresas utilizando dos recursos
+
+Nuvem privada:
+quando uma empresa tem seu próprio servidor (consegue se sustentar)
+
+-------------------------------------
+
+nuvem: você se preocupa apenas com a parte operacional
+
+capital: valor inicial
+
+operacional: professores, energia , água
+
+-------------------------------------
+
+Recursos da AWS:
+
+* computação :
+EC2: criar computador de acesso remoto
+
+Lambida: computação sem servidor (gerencia funções simples e depois se auto destroi)
+
+
+
+
+
+
+
