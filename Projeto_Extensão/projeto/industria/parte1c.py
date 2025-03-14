@@ -47,4 +47,4 @@ for index, row in top_10_por_sigla.iterrows():
         last_sigla = sigla
     
     # Imprimir os dados da linha
-    print(f"  Valor: {row['PEPR_Indústria (R$)']} - Município: {row['Nome_Municipio']} - Ano: {row['Ano']} - Contagem: {row['Contagem']}")
+    print(f"  Valor: {row['PEPR_Indústria (R$)']} - {row['Nome_Municipio']} - Ano: {row['Ano']}")

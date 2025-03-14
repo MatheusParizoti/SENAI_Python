@@ -24,8 +24,9 @@ contagem_positivos_por_sigla = df_maiores_que_zero.groupby('Sigla_UF').size()
 
 # Exibir os resultados
 print("")
-print(f"Valores não nulos: {num_nao_nulos}")
-print(f"Valores positivos: {len(df_maiores_que_zero)}")
+print("Região Sudeste")
+print(f"Numeros de Danos: {num_nao_nulos}")
+print(f"Danos acima de 0: {len(df_maiores_que_zero)}")
 
 print("\nContagem de valores positivos para cada sigla:")
 # Imprimir sigla e quantidade de valores positivos
