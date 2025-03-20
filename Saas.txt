@@ -1,0 +1,6 @@
+Saas: 
+
+abrir a porta do SSH exclusivamente para manutenção após lançar na web
+
+aqui que você delimite a regra e em que porta pode ser aberta ou 
+fechada, basicamente o limite que o cliente pode alcançar
