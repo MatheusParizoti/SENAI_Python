@@ -1,0 +1,15 @@
+MondoDB:
+
+No SQL:
+* Suprir necessidades que não conseguia
+* Permitir novos modelos de aplicação
+
+
+Em dados relacionais, o padrão ANSI (muitas vezes chamado de padrão SQL ANSI) refere-se ao conjunto de regras e sintaxe para a linguagem SQL definido pelo ANSI – o Instituto Nacional Americano de Padrões (American National Standards Institute). Ele define como os bancos de dados relacionais devem armazenar, manipular e consultar dados usando SQL.
+
+coleção = tabela
+
+Mongo compas: visual
+Mongo shell: cmd
+
+
