@@ -1,0 +1,52 @@
+Curso de Ux e Ui
+objetivo:
+* balancear interfaces bonitas e funcionais 
+
+* bonitos e fáceis de utilizar
+
+* interfaces intuitivas
+
+referencias de livros:
+
+* A psicologia das cores
+
+* O design do dia a dia
+
+* Ceomentria Design
+
+Figma:
+Criado de Setembro de 2016
+
+Aprender atalhos:
+move = v
+scale = k 
+hand tool = h
+hand tool = scroom do mouse
+
+
+Frame = f
+
+ctrl + scroom = zoom
+
+
+(tem que ter uma noção de um geral)
+
+* Consistência
+
+* Feedback Imediato (Exemplo: Icone Loading)
+
+Porque devemos colocar Ux em Pratica?
+
+* Melhora a retenção de usuários
+* Reduz erros e dúvidas
+* Aumenta as taxas de conversão
+
+
+Projeto do Curso:
+Sneakers: loja de tênis
+
+(Um projeto interativo)
+
+fase 1: Pesquisa para entender o nosso publico
+
+fase 2: Criar uma persona
