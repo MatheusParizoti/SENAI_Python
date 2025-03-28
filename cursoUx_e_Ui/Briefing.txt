@@ -1,0 +1,32 @@
+MVP: Produto Mínimo viável -> Product
+
+Iconigrafia/Ilustrações
+
+Grid
+
+Newsletter
+
+Figma Community
+- Code Troble
+
+- icone de stroke
+- vai quebrar a consistencia
+- transformar seu negocio em algo unico para o cliente
+
+(Criar grupo whatsapp para conversar com o cliente)
+
+Product Design
+
+Dono do Produto
+
+- Criar uma estrategia gratuita (ex: compraro meet pago para nao cair a reunião) 
+
+3 etaps principais etapas do ui:
+
+* Pesquisa e planejamento
+* WireFrames
+* Definição da Identidade Visual
+
+WireFrame:
+Onborad - introdução
+AUTH - login/cadastrar
