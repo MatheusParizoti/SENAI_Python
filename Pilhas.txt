@@ -1,0 +1,42 @@
+Pilhas:
+- obrigatoriamente precisa desempilhar para fazer a tarefa importante, igual as moedas
+
+* Empilhar
+ - Colocar um item de dados no topo da pilha
+* Desempilhar
+ - Remover um item do topo da pilha
+* Ver o topo
+ -Mostra o elemento que está no topo da pilha
+
+* Último a entrar é o Primeiro a Sair (LIFO - Last-In-First-Out)
+
+* Expressões Aritméticas
+* Árvore Binaria
+* Grafo	
+
+Filas:
+- A primeira a Entrar é a primeira a Sair (FIFO - First-In-First-Out)
+
+* Enfileirar
+ - Colocar um item no final da fila
+* Desenfileirar
+ - Remover um item do inicio da fila
+* Ver inicio da fila
+ - Mostra o elemento que está no inicio da fila
+
+- Fila Circular
+
+* Indica quem é o primeiro e o ultimo (precisa ter um limite de vagas para ser preenchidas)
+- Não altera a posição , altera a Importancia
+- É melhor que o vetor porque o Big-O é mais leve 
+
+-Fila de Prioridade
+(Coloca os elementos de baixa prioridade no final da fila)
+(Coloca os elementos de alta prioridade no começo da fila)
+
+- Vai ter que usar um passo amais porque tem que abrir um espaço vazio no meio para colocar a prioridade (igual o vetor)
+
+Deque (DOUBLE ENDED QUEUE):
+- Junção tanto das pilhas , quanto das filas (Entrar e Sai tanto do Começo quanto do Final)
+
+- Processamento Paralelo (quebrar meu codigo para que ele funcione mais rápido)
