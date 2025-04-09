@@ -1,0 +1,38 @@
+normal=[]
+preferencial=[]
+
+def adicionar_cliente():
+    p1 = str(input("Voce é um cliente normal ou preferencial? "))
+    n = "normal"
+    p = "preferencial"
+    if p1 == n:
+        p2 = str(input("Qual nome voce deseja add a lista? "))
+        normal.append(p2)
+        print("cliente add com sucesso!!")
+        print(normal)
+    elif p1 == p:
+        p3 = str(input("Qual nome voce deseja add a lista? "))
+        preferencial.append(p3)
+        print("cliente add com sucesso!!")
+        print(preferencial)
+    else:
+        print("Por Favor coloque uma das opções")
+
+def exibir_filas():
+    print()
+    print("Exibindo as duas lista")
+    print("Lista Normal")
+    print(normal)
+    print("Lista Preferencial")
+    print(preferencial)
+
+# def historico_atendimento()
+
+# def sair_programa()
+#     p3 = str(input("Deseja realmente sair ?"))
+
+
+# sair_programa()
+# historico_atendimento()
+adicionar_cliente()
+exibir_filas()
