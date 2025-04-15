@@ -1,0 +1,28 @@
+Listas Encadeadas:
+
+* vai usar estrutura de dicionário
+
+* cada lista de dados vai ser incorporada em um nó
+
+* tem cabeça e cauda
+
+* para acessar algum dados , precisa passar pelos nós, não é possível          pular
+
+* uma lista encadeada simples é lida da esquerda para a direita passando em cada nó 
+
+* se faltar um nó quebra a lista encadeada
+
+* A estrutura é que temos uma cabeça de lista e uma cauda da lista(antena parabólica para baixo)
+
+Inserir:
+tira o nó do primeiro, cria uma caixa , liga o nó com a caixa nova
+
+Excluir:
+mesma coisa que o inserir porem ao contrario
+
+Listas com Extremidades Dupla:
+* tem duas cabeças de lista
+
+* todas as caixas tem 2 nós, ida e volta
+
+* para cada cabeça, precisa de uma cauda
