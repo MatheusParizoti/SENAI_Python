@@ -1,0 +1,47 @@
+Algoritmos de Ordenação
+
+* algoritmo é uma receita de bolo
+(possui passo a passo finito para algum proposito)
+
+* todo algoritmo é baseado em comparação
+
+
+código:
+
+def fatorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * fatorial(n - 1)
+
+
+bubble sort:
+
+• Comparações entre elementos
+• Troca de posições
+* Esquerda menor,  direita maior
+* um BigO muito grande porque compara com todo mundo
+
+selection sort:
+
+* do menor para o maior
+* fixa o menor e vai jogando para esquerda
+* mais eficaz que o bubble
+
+Insertion sort:
+
+* um grupo já ordenado
+* inserir o valor novo no grupo
+
+shell sort:
+
+* vai dividir o vetor em 2 e vai comparar entre eles
+
+merge sort:
+
+* dividindo o vetor em partes menores
+* depois vai ajustando com as ramificações
+
+quick sort:
+
+
+
