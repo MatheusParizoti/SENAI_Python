@@ -1,0 +1,20 @@
+grafo:
+
+existem os vértices, e as arestas
+
+varias formas de modela meu problema
+
+(NEO4J)(banco que usa grafos)
+
+Matriz de Adjacência:
+* quando uma vértice liga é ligada por uma 
+aresta com outra vértice
+
+Grafos orientados e ponderados:
+* Orientados - direção nas arestas
+* Ponderados - pesos nas arestas
+
+
+* vértice central é denominada pelo numero de 
+ligações, não pelo peso
+
