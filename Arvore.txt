@@ -1,0 +1,28 @@
+Arvore:
+
+junção de vetor ordenado com lista encadeada
+
+Arvore Binaria:
+
+* Porque a cabeça tem apenas 2 filhos
+
+* Cada vértice só pode ter 2 filhos
+
+* As arestas só podem ter uma única direção
+
+* Existe os nós Pai
+
+* Nó folhas quando não tem mais arestas
+
+Arvore Binaria de Busca:
+
+* O filho da direita vai ser sempre maior que o da chave, e da esquerda menor
+
+- Travessia
+
+** Pre-Ordem: Raiz, Esquerda, Direita
+
+** Ordem: Esquerda, Raiz, Direita
+
+** Pos-Ordem: Esquerda, Direita, Raiz
+
