@@ -1,0 +1,20 @@
+insights: 
+
+Processo Seletivo:
+Objetivo: Identificar perfis de maior ou menor risco de reprovação.
+
+* Notas vs. taxa de aprovação.
+
+* Perfil socioeconômico e taxa de desqualificação.
+
+* Escolaridade x performance no processo.
+
+Condições de Moradia:
+
+Objetivo: Mapear vulnerabilidade social e possíveis desafios no ambiente familiar.
+
+* Número de moradores por casa
+
+* Tipo de moradia (própria, alugada, financiada, cedida, favela) 
+
+* Relação entre moradia e tempo dedicado ao processo
