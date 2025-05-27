@@ -1,0 +1,73 @@
+0. Classe Pessoa
+Crie uma classe com os atributos nome e idade. Adicione um método que imprime uma apresentação.
+
+Classe Retângulo
+1.Crie uma classe que represente um retângulo com largura e altura. Adicione métodos para calcular a área e o perímetro.
+
+2.Classe Círculo
+Crie uma classe Circulo com atributo raio. Implemente métodos para calcular área e circunferência.
+
+3.Classe Carro
+Crie uma classe com atributos marca, modelo, ano. Adicione um método descricao().
+
+4.Classe Livro
+Crie uma classe com título, autor, ano. Adicione um método que imprima os dados formatados.
+
+5.Classe Aluno com Notas
+Crie uma classe com nome e lista de notas. Implemente métodos para adicionar notas, calcular média e verificar aprovação.
+
+6.Classe Produto
+Crie uma classe com nome, preço e quantidade_estoque. Adicione métodos para vender, repor e aplicar desconto.
+
+7.Classe ContaBancaria
+Crie uma classe com métodos depositar, sacar e extrato.
+
+8.Classe Elevador
+A classe deve conter andar_atual, total_andares, capacidade e pessoas. Crie métodos para subir, descer, entrar e sair.
+
+9.Classe Agenda
+Permita adicionar, listar e buscar contatos com nome e telefone.
+
+10.Classe Pedido com Itens
+Crie uma classe que represente um pedido contendo vários produtos. Calcule o valor total.
+
+11.Classe Funcionario com Aumento Salarial
+Crie atributos nome e salario. Adicione um método que aplique aumento percentual.
+
+12.Classe Lista Encadeada
+Crie uma classe de lista encadeada, com os seguintes métodos:
+	adicionar item no final da lista
+	adicionar item no começo da lista
+	remover item no final da lista
+	remoter item no começo da lista
+
+13.Classe Lista Encadeada Dupla
+Crie uma classe de lista encadeada dupla, com os seguintes métodos:
+	adicionar item no final da lista
+	adicionar item no começo da lista
+	remover item no final da lista
+	remoter item no começo da lista
+
+14. Criar uma classe ContaBancaria com um atributo saldo privado. Implemente métodos depositar(valor) e sacar(valor). Impedir saque se o valor for maior que o saldo.
+
+15. Crie uma classe Aluno com os atributos privados nome, nota1 e nota2. Implemente um método media() que retorna a média das notas, e use getters/setters para acessar os atributos.
+
+16. Modifique a classe ContaBancaria do exercício 1 para que, ao tentar sacar um valor inválido, uma mensagem de erro seja exibida usando encapsulamento para proteger os dados.
+
+17. Implemente a classe Produto com atributos privados nome e preco. Crie um método aplicar_desconto(percentual) que modifica o preço, mas sem permitir que ele fique abaixo de zero.
+
+18. Crie a classe Temperatura com um atributo privado _celsius e dois métodos públicos get_fahrenheit() e set_fahrenheit(valor) que convertam entre Celsius e Fahrenheit.
+
+19. Crie a classe base Veiculo com atributos marca e modelo, e um método exibir_info(). Crie duas classes filhas Carro e Moto que herdam de Veiculo.
+
+20. Adicione um método ligar() nas classes Carro e Moto que exibe mensagens diferentes. Teste com uma instância de cada classe.
+
+21. Crie a classe Funcionario com nome e salário. Crie Gerente e Vendedor como subclasses, adicionando atributos específicos. Exiba as informações usando herança.
+
+22. Utilize super() na classe Gerente do exercício anterior para reaproveitar o construtor da superclasse Funcionario.
+
+23. Crie uma classe Animal com método falar(). Crie as subclasses Cachorro e Gato que sobrescrevem esse método com sons específicos.
+
+24. Crie uma função fazer_som(animal) que recebe um objeto e chama animal.falar(). Teste com Cachorro, Gato, Passaro, todos herdando de Animal com método sobrescrito falar().
+
+25. Crie uma função calcular_pagamento(funcionario), que funciona com objetos de Funcionario, Gerente e Estagiario, cada um com sua lógica própria de cálculo.
