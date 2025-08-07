@@ -1,0 +1,20 @@
+Banco de Dados Professor Rafael:
+
+método para manter engajado, avaliação
+
+Trasformação digital
+
+* Lei de Kryder
+
+* Lei de Moore
+
+* Lei de Butter
+
+Tipo de Qualidade de Dados:
+
+* Completude
+* Consistência
+* Conformidade
+* Integridade
+* Precisão
+* Atualidade
