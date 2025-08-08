@@ -1,0 +1,10 @@
+Linguagem de Programação Aplicada a Análise de Dados:
+
+* Interpolação Linear :
+	para resolver problema de falta de dados
+	(obs.) - tem que ser dados que não tem muita variação drástica
+
+* Fraude:
+	Nunca remova dados fraudulentos
+
+* Uma analise descritiva
