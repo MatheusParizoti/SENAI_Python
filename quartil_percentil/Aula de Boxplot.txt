@@ -1,0 +1,41 @@
+Aula de Boxplot:
+
+o que é?
+
+* A mediana pode ter mais números maiores ou menores acabando mudando a mediana do meio
+
+percentil:
+P = (K * N) / 100
+
+quartil:
+* sempre meu segundo quartil é igual a mediana
+
+1 = 25%
+2 = 50%
+3 = 75%
+
+Posição
+Dispersão - 	Amplitude
+
+Cauda
+
+Limite de detecção de outliers
+Limite de detecção de outliers - Superior
+Limite de detecção de outliers - Inferior
+
+Variância
+
+Formula que o python calcula os quartis:
+
+P = n-1 * percentual
+
+OBS: se P não inteiro interpola entre os dois valores
+
+* ele meio que descobre um índice
+
+* o quartil é calculado assim:
+Qx(25,50,75) = percentil(1) + retinho do percentil(0,75)()
+
+* Primeiro descobrimos o percentil para achar o Quartil
+
+
