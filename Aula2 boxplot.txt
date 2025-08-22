@@ -1,0 +1,25 @@
+Aula2 boxplot:
+
+Quanto maior a dispersão , menos outliers vai ter
+
+Como construir um bloxplot:
+(Técnica mediana das medianas)
+
+Passo 1: Ordenar a lista
+
+	Passo 2: Calcular a mediana
+
+		Passo 3: Descobrir q1,q3
+
+			Passo 4: IQR = q3 - q1
+
+				Passo 5: Limite superior = q3 + 1,5 * (IQR) / Limite inferior = q1 - 1,5 * (IQR)
+				
+
+(passou disso, virou outlier)
+
+(Técnica Genérica Python)
+P = (n-1) * percentual
+(se o não for inteiro)
+	Q = valor índice.i + sobra * (índice.i+1 - índice)
+
